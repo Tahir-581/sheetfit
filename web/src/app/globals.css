@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #1c1917;
+  --paper: #f3efe6;
+  --paper-deep: #e7e0d2;
+  --accent: #8b4513;
+  --accent-soft: #c4a484;
+  --muted: #5c5346;
+  --line: #d4cbb8;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--ink);
+  font-family: var(--font-body), "Source Sans 3", system-ui, sans-serif;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #fffaf0 0%, transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, #e8dcc8 0%, transparent 50%),
+    linear-gradient(165deg, var(--paper) 0%, var(--paper-deep) 100%);
+}
+
+.font-display {
+  font-family: var(--font-display), "Libre Baskerville", Georgia, serif;
+}

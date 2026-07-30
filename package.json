@@ -1,0 +1,10 @@
+{
+  "name": "sheetfit",
+  "private": true,
+  "description": "Expand short book PDFs to ~400 pages for 100-sheet print",
+  "scripts": {
+    "engine": "cd engine && .venv/bin/uvicorn sheetfit.api:app --host 127.0.0.1 --port 8765 --reload",
+    "web": "cd web && npm run dev",
+    "expand:alchemist": "cd engine && .venv/bin/sheetfit expand ../fixtures/3-The-Alchemist-Paulo-Coelho.pdf -o ../output/alchemist-expanded.pdf --report ../examples/alchemist-report.json"
+  }
+}

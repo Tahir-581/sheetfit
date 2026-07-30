@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+engine/.venv/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg
+
+# Engine work dirs
+engine/.cache/
+engine/tmp/
+*.pdf.out
+output/
+
+# Node
+node_modules/
+web/node_modules/
+web/.next/
+web/out/
+web/.vercel/
+npm-debug.log*
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local uploads / jobs
+web/.data/
+engine/.data/
+*.log
+.env
+.env.local

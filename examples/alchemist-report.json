@@ -1,0 +1,26 @@
+{
+  "input_path": "../fixtures/3-The-Alchemist-Paulo-Coelho.pdf",
+  "output_path": "../output/alchemist-expanded.pdf",
+  "source_pages": 136,
+  "output_pages": 400,
+  "target_pages": 400,
+  "threshold": 350,
+  "action": "retypeset",
+  "word_count": 42686,
+  "image_count": 37,
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "params": {
+    "generosity": 0.5395750285214856,
+    "font_size_pt": 15.86,
+    "line_height": 1.539,
+    "margin_x_in": 0.766,
+    "margin_y_in": 0.843,
+    "paragraph_spacing_em": 0.674,
+    "chapter_opener_pages": true
+  },
+  "blank_pages_added": 11,
+  "notes": [
+    "Added 11 blank page(s) to reach 400 pages."
+  ]
+}
